@@ -8,8 +8,8 @@ const Resume = () => {
       <Features />
       <h1>{data.name}</h1>
       <div className="designation">
-        <h2>{data.title} | </h2>
-        <h2 className="total-xp">{data.totalExperience} years</h2>
+        <h2>{data.title} </h2>
+        {/* <h2 className="total-xp">{data.totalExperience} years</h2> */}
       </div>
 
       <div className="contents">
@@ -51,7 +51,7 @@ const Resume = () => {
       <div className="contents">
         {data.projects.map((project, index) => (
           <div key={index}>
-            <h4 className="project-headings">{project.name}</h4>
+            <h4 className="project-headings">{index+1}. {project.name}</h4>
             <ul>
               {project.details.map((detail, i) => (
                 <li key={i}>{detail}</li>
@@ -68,7 +68,16 @@ const Resume = () => {
 
       <h3 className="headings">Skills</h3>
       <div className="contents">
-        <p>{data.skills.join(", ")}</p>
+        <div className="skills">
+          {data.skills.map((skill, index) => {
+            return (
+              <div className="skill" key={skill.id}>
+                {skill.name}
+                {data.skills.length === index + 1 ? "" : " |"}
+              </div>
+            );
+          })}
+        </div>
       </div>
 
       <h3 className="headings">Certifications</h3>
