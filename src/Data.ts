@@ -29,8 +29,9 @@ const data = {
       location: "Gurgaon",
       website: "https://www.oodlestechnologies.com/",
       responsibilities: [
-        "Spearheaded the redesign of the main product website, resulting in a 40% increase in user engagement.",
+        "Contributed to the redesign of the main product website, resulting in a 40% increase in user engagement.",
         "Developed and implemented cross-device compatibility.",
+        "Implemented the same with a react.js port for clients"
       ],
     },
     {
@@ -44,8 +45,8 @@ const data = {
       location: "Gurgaon",
       website: "https://www.radiansys.com/",
       responsibilities: [
-        "Spearheaded the redesign of the main product website, resulting in a 40% increase in user engagement.",
-        "Developed and implemented cross-device compatibility.",
+        "Implemented test driven development in various products/services.",
+        "Learned micro-service and event driven architectures.",
       ],
     },
     {
@@ -59,8 +60,8 @@ const data = {
       location: "Gurgaon",
       website: "https://www.upperthrust.com/",
       responsibilities: [
-        "Spearheaded the redesign of the main product website, resulting in a 40% increase in user engagement.",
-        "Developed and implemented cross-device compatibility.",
+        "Backend API implementations, TDD, team cordination and delegation.",
+        "Implemented cross-device compatibility as well as cross-platforms on cloud",
       ],
     },
   ],
@@ -145,10 +146,10 @@ const data = {
       name: "GL Plus",
       details: [
         "Ecommerce App & Admin Dashboard",
-        "Ecommerce using Express.js API development, unit tests and react frontend.",
+        "Ecommerce using nest.js API development, unit tests and react frontend.",
         "E-Commerce Frontend Development: Built a user-friendly e-commerce website with responsive React components for seamless customer interaction and shopping experience.",
       ],
-      technologies: ["Express.js", "MUI", "React", "Zustand", "SASS"],
+      technologies: ["Nest.js", "MUI", "React", "Zustand", "SASS"],
     },
     {
       name: "Adretreaver",
@@ -205,9 +206,9 @@ const data = {
       details: [
         "UCAT is an Medical Exam Portal for Australia.",
         "API integration and re-vamped the legacy less performant code base to a new version, following modern approaches for easy maintenance",
-        "Backend implementation in express.js and postgres and TDD(Jest)",
+        "Backend implementation in nest.js and postgres and TDD(Jest)",
       ],
-      technologies: ["Express.js", "Ant", "React", "Redux", "Jest", "SASS"],
+      technologies: ["Nest.js", "Ant", "React", "Redux", "Jest", "SASS"],
     },
     {
       name: "Medentry Math Trainer",
