@@ -7,7 +7,7 @@ const data = {
     { title: "Location", value: "Pune", type: "text" },
     {
       title: "Portfolio",
-      value: "https://arun0808rana.github.io/portfolio-arun",
+      value: "https://arun0808rana-portfolio.netlify.app/",
       type: "link",
     },
     {
