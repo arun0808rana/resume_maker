@@ -140,7 +140,7 @@ const data = {
         "Traffic engine is a microservice responsible for capturing user engagement and redirecting them to respective inflight-campaigns of centrifi",
         "It's made in Nest.js and consists a puppeteer simulator for event-driven data integrity.",
       ],
-      technologies: ["Nest.js", "Puppeteer", "Jest", "MySql"],
+      technologies: ["Nest.js", "Puppeteer", "Jest", "MySql", "docker"],
     },
     {
       name: "GL Plus",
@@ -272,6 +272,7 @@ const data = {
     { id: 23, name: "Zod & Yup" },
     { id: 24, name: "Electron.js" },
     { id: 25, name: "CSS-IN-JS(Emotion & Styled Components)" },
+    { id: 26, name: "Docker" },
   ],
   certifications: [
     {
