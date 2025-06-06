@@ -31,7 +31,7 @@ const data = {
       responsibilities: [
         "Contributed to the redesign of the main product website, resulting in a 40% increase in user engagement.",
         "Developed and implemented cross-device compatibility.",
-        "Implemented the same with a react.js port for clients"
+        "Implemented the same with a react.js port for clients",
       ],
     },
     {
@@ -59,6 +59,21 @@ const data = {
       },
       location: "Gurgaon",
       website: "https://www.upperthrust.com/",
+      responsibilities: [
+        "Backend API implementations, TDD, team cordination and delegation.",
+        "Implemented cross-device compatibility as well as cross-platforms on cloud",
+      ],
+    },
+    {
+      id: 3,
+      company: "Unix Technologies",
+      position: "Fullstack Developer",
+      dates: {
+        from: "Jan 2025",
+        to: "May 2025",
+      },
+      location: "Pune",
+      website: "https://unixtechnologies.in/",
       responsibilities: [
         "Backend API implementations, TDD, team cordination and delegation.",
         "Implemented cross-device compatibility as well as cross-platforms on cloud",
