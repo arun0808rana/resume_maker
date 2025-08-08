@@ -130,20 +130,20 @@ button:focus-visible {
   margin-left: 16px;
 }
 
-.features {
+/* .features {
   position: absolute;
   top: 100px;
   right: 100px;
   display: flex;
   justify-content: space-between;
   width: 256px;
-}
+} */
 
 .download-btn > button {
   background-color: black;
   color: white;
+  margin-right: 1rem;
 }
-
 
 @media print {
   .no-print {
@@ -151,11 +151,17 @@ button:focus-visible {
   }
 }
 
-.skills{
+.skills {
   display: flex;
   flex-wrap: wrap;
 }
-.skill{
+.skill {
   margin-right: 12px;
   margin-bottom: 8px;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

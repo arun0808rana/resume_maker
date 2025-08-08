@@ -65,7 +65,7 @@ const data = {
       ],
     },
     {
-      id: 3,
+      id: 4,
       company: "Unix Technologies",
       position: "Fullstack Developer",
       dates: {
@@ -76,7 +76,24 @@ const data = {
       website: "https://unixtechnologies.in/",
       responsibilities: [
         "Backend API implementations, TDD, team cordination and delegation.",
-        "Implemented cross-device compatibility as well as cross-platforms on cloud",
+        "Frontend responsibilities",
+        "pm2.js deployment and nginx routing",
+      ],
+    },
+    {
+      id: 5,
+      company: "Flowtech apps & Briqbi",
+      position: "Fullstack Developer",
+      dates: {
+        from: "Jun 2022",
+        to: "Present",
+      },
+      location: "Pune",
+      website: "https://flowtechapps.com/",
+      responsibilities: [
+        "Backend API implementations in nestjs",
+        "Deployment on platforms(nginx based).",
+        "Frontend development+Figma wireframes and design systems for a ai-powered app, as well as other depencies(livekit widgets, vanilla.js widgets, landing pages, docs).",
       ],
     },
   ],

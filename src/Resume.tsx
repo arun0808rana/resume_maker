@@ -5,8 +5,10 @@ const Resume = () => {
   return (
     <div className="resume">
       {/* <button onClick={handlePrint}>Print This Page</button> */}
-      <Features />
-      <h1>{data.name}</h1>
+      <div className="flex-between">
+        <h1>{data.name}</h1>
+        <Features />
+      </div>
       <div className="designation">
         <h2>{data.title} </h2>
         {/* <h2 className="total-xp">{data.totalExperience} years</h2> */}
@@ -31,27 +33,31 @@ const Resume = () => {
 
       <h3 className="headings">Experience</h3>
       <div className="contents">
-        {data.experience.map((job) => (
-          <div className="experience" key={job.id}>
-            <h4 className="company-name">{job.company}</h4>
-            <p>{job.position}</p>
-            <p className="dates">
-              {job.dates.from} - {job.dates.to}
-            </p>
-            <ul>
-              {job.responsibilities.map((resp, i) => (
-                <li key={i}>{resp}</li>
-              ))}
-            </ul>
-          </div>
-        ))}
+        {data.experience
+          .sort((a, b) => b.id - a.id)
+          .map((job) => (
+            <div className="experience" key={job.id}>
+              <h4 className="company-name">{job.company}</h4>
+              <p>{job.position}</p>
+              <p className="dates">
+                {job.dates.from} - {job.dates.to}
+              </p>
+              <ul>
+                {job.responsibilities.map((resp, i) => (
+                  <li key={i}>{resp}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
       </div>
 
       <h3 className="headings">Projects</h3>
       <div className="contents">
         {data.projects.map((project, index) => (
           <div key={index}>
-            <h4 className="project-headings">{index+1}. {project.name}</h4>
+            <h4 className="project-headings">
+              {index + 1}. {project.name}
+            </h4>
             <ul>
               {project.details.map((detail, i) => (
                 <li key={i}>{detail}</li>

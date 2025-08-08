@@ -8,7 +8,7 @@ function Features() {
         <button>Print</button>
       </div> */}
       <div className="download-btn" onClick={handlePrint}>
-        <button>Download</button>
+        <button>Download CV</button>
       </div>
     </div>
   );
