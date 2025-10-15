@@ -85,7 +85,7 @@ const data = {
       company: "Flowtech apps & Briqbi",
       position: "Fullstack Developer",
       dates: {
-        from: "Jun 2022",
+        from: "Jun 2025",
         to: "Oct 2025",
       },
       location: "Pune",
