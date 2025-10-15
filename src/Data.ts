@@ -24,7 +24,7 @@ const data = {
       position: "Associate Software Engineer",
       dates: {
         from: "Jan 2020",
-        to: "Nov 2020",
+        to: "Apr 2021",
       },
       location: "Gurgaon",
       website: "https://www.oodlestechnologies.com/",
@@ -40,7 +40,7 @@ const data = {
       position: "Software Engineer",
       dates: {
         from: "May 2021",
-        to: "Dec 2021",
+        to: "Aug 2022",
       },
       location: "Gurgaon",
       website: "https://www.radiansys.com/",
@@ -86,7 +86,7 @@ const data = {
       position: "Fullstack Developer",
       dates: {
         from: "Jun 2022",
-        to: "Present",
+        to: "Oct 2025",
       },
       location: "Pune",
       website: "https://flowtechapps.com/",
@@ -113,7 +113,6 @@ const data = {
         "Serverless",
         "Jest",
         "MUI",
-        "Azure Bus",
       ],
     },
     {
@@ -146,6 +145,21 @@ const data = {
         "Jest",
         "Redis",
         "MUI",
+        "Redux Toolkit",
+      ],
+    },
+    {
+      name: "Benign Health",
+      details: [
+        "An AI powered application/dashboard for detecting early cancer symptoms based on structured histories and imaging tests.",
+        "Primary role included designing and implementing reusable, responsive React components, ensuring consistency and scalability across the platform while optimizing performance with techniques like lazy loading and memoization.",
+        "API development in express.js. Unit tests using Jest.",
+      ],
+      technologies: [
+        "React",
+        "Express.js",
+        "Jest",
+        "Chakra UI",
         "Redux Toolkit",
       ],
     },
@@ -206,6 +220,22 @@ const data = {
         "React",
         "Redux Toolkit",
         "Serverless(Lambda & Azure Functions",
+      ],
+    },
+    {
+      name: "Habit Better",
+      details: [
+        "A two way application for end users as well as coaches for personal training. For users it offered a behavioral design engine that turns intentions into actions",
+        "The engine constituted of different modules such as consistency engine, gamified accountability engine, tracking engine, quit—and adjusts reminder module and dynamic feedback loops setups. Backend with graphQL",
+      ],
+      technologies: [
+        "Nest.js",
+        "MongoDb",
+        "React.js",
+        "Zustand",
+        "Jest.js",
+        "Socket.IO",
+        "RabbitMQ",
       ],
     },
     {
@@ -278,6 +308,23 @@ const data = {
         "Frontend development using react.js, MUI and redux toolkit",
       ],
       technologies: ["Express.js", "React", "Redux Toolkit"],
+    },
+    {
+      name: "MPMS",
+      details: [
+        "A unified platform that simplifies attendance tracking, leave management, salary processing, subscription billing, and employee payments",
+        "Implemented backend APIs in nest.js",
+        "Frontend development using react.js, MUI and zustand",
+      ],
+      technologies: [
+        "Nest.js",
+        "RabbitMQ",
+        "React",
+        "Zustand",
+        "Razorpay",
+        "Twilio",
+        "Postgres",
+      ],
     },
     // Add more projects here...
   ],
