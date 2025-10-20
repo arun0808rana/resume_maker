@@ -1,1 +1,1 @@
-![Alt text](public/screenhot.png "a title")
+![Alt text](public/screenshot.png "a title")
